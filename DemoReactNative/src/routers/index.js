@@ -5,10 +5,14 @@ import {
 import { createAppContainer, createStackNavigator, createSwitchNavigator } from 'react-navigation';
 import TabNavigator from './tabNavigator';  // 几个tab切换卡上的主页面
 
+import WebView from '../views/home/webView';
+import Status from '../views/home/Status';//状态栏
 
 const Routers = createStackNavigator(
   {
     TabNavigator,//Tab
+    WebView,
+    Status,
     
   },
   {

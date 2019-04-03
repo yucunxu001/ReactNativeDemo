@@ -13,6 +13,7 @@ import Sty from './src/asstes/styles';
 import Common from './src/asstes/js/index';
 import Store from './src/store/store';
 import Routers from './src/routers/index';
+import Stack from './src/routers/stack';
 
 export default class App extends Component<Props> {
   render() {
@@ -20,6 +21,7 @@ export default class App extends Component<Props> {
       <Provider store={Store}>
         <View style={css.flex}>
           <Routers/>
+          {/* <Stack/> */}
         </View>
       </Provider>
     );

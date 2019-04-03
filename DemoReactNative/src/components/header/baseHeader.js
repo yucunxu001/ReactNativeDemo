@@ -6,7 +6,8 @@ import {
   StyleSheet,
 } from 'react-native';
 import { withNavigation } from 'react-navigation';
-import Tw from './touchWithoutFeedback';
+// import Tw from './touchWithoutFeedback';
+import Tw from '../touch/touchWithoutFeedback';
 
 class Index extends Component {
   static defaultProps = {  // 默认值
